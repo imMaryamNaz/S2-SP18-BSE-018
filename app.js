@@ -41,7 +41,7 @@ app.use(function (err, req, res, next) {
 });
 
 mongoose
-  .connect("mongodb://localhost/productscrud", {
+  .connect("mongodb+srv://hanzala:hanzala1234@cluster0.ebtny.mongodb.net/test", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
